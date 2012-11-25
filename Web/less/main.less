@@ -1,0 +1,277 @@
+@import "bootstrap.less";
+
+body {
+  padding-top: 60px;
+}
+
+#station-container {
+  margin-top: -50px;
+  padding: 20px;
+}
+
+#top-error {
+  position: fixed;
+  top: 2px;
+  left: 0;
+  right: 0;
+  z-index: 100000000;
+  .alert-message {
+    margin: 10px auto;
+    width: 930px;
+  }
+}
+
+.picture {
+  padding: 7px;
+  margin: 20px 0px;
+  border: 1px solid #ddd;
+  .border-radius(4px);
+  .box-shadow(0 1px 1px rgba(0,0,0,.075));
+  &:hover {
+    border-color: @linkColor;
+    .box-shadow(0 1px 4px rgba(0,105,214,.25));
+  }
+}
+
+#picture {
+  float: left;
+  margin: 0 30px 20px 0;
+}
+
+#pano {
+  width: 550px; 
+  height: 460px; 
+  margin: 0 0 -30px 0;
+}
+
+#google-copyright {
+  width: 70px;
+  margin-bottom: 15px;
+  position: relative; 
+  z-index: 1;
+  a {
+    display: block;
+    width: 70px;
+    height: 30px;
+  }
+}
+
+#answer {
+  float: left;
+  width: 350px;
+  img {
+    margin-top: 20px;
+  }
+
+  #answer-input {
+    margin-top: 5px;
+    width: 286px;
+  }
+  
+  .btn {
+    height: 35px;
+  }
+  
+  .small {
+    margin-bottom: 0px;
+  }
+}
+
+
+section {
+  padding-top: 60px;
+}
+
+section#about {
+  margin-top: -40px;
+}
+
+#resultsbox {
+  margin-left: 2px;
+  width: 290px;
+}
+
+#station-names {
+  list-style-type: none;
+  margin: 0px;
+  li {
+    width: 230px;
+    float: left;
+    color: @grayDark;
+  }
+}
+
+#livesearch {
+  position: absolute;
+  display: none;
+  width: 290px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  z-index: 999;
+  ul {
+    text-align: left;
+    list-style-type: none;
+    margin: 0px;
+  }
+  li {
+    padding: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: @grayLighter;
+    }
+  }
+}
+
+#station-name-div p {
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 130px;
+}
+
+#game-stats {
+  padding-top: 10px;
+  float: right;
+  color: #FFF;
+  li {
+    display: inline-block;
+    @c: #444;
+    #gradient > .vertical-three-colors(@c, @c, 25%, darken(@c, 10%));
+    padding: 5px 14px 6px;
+    color: #FFF;
+    font-size: @basefont - 2px;
+    line-height: normal;
+    border: 1px solid #ccc;
+    border-bottom-color: #bbb;
+    .border-radius(4px);
+
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+  }
+}
+:root #game-stats ul li {
+  border-radius: 0 \0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.icon {
+  position: relative;
+  top: 2px;
+  left: -5px;
+}
+
+
+#choose_type {
+  text-align: left;
+  margin-bottom: 24px;
+  .btn {
+    margin-left: 20px;
+  }
+}
+
+.loading {
+  text-align: center;
+}
+
+.modal-body {
+  input {
+    height: 18px;
+  }
+  input.btn {
+    height: 30px;
+    margin-bottom: 0px;
+  }
+
+  .clearfix {
+    margin-bottom: 10px;
+  }
+  select {
+    font-size: 13px;
+    height: 28px;
+    width: 130px;
+  }
+  p {
+    margin-bottom: 7px;
+  }
+  a.btn {
+    margin-bottom: 20px;
+  }
+  #twitter {
+    width: 244px
+  }
+  #age-div {
+    label {
+      width: 50px;
+    }
+    .input {
+      margin-left: 70px;
+    }
+    input {
+      width: 50px;
+    }
+  }
+}
+
+ul.small {
+  margin-top: -20px;
+  font-size: 12px;
+}
+
+.popover {
+  p{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  ul {
+    margin-top: 5px;
+  }
+  ul li {
+    line-height: 18px;
+  }
+}
+
+#team p {
+  font-size: 14px;
+}
+
+#helper {
+  text-align: justify;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+.brand {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#report {
+  cursor: pointer;
+  color: #CC0000;
+  display: inline;
+  float: right;
+  font-size: 14px;
+  margin-top: -10px;
+  border-bottom: 1px dotted #CC0000;
+  line-height: 16px;
+  &:hover {
+    cursor: pointer;
+    color: #800000;
+  }
+}
+
+.justify {
+  text-align: justify;
+}
