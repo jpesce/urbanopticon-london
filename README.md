@@ -1,7 +1,8 @@
 # Urbanopticon
 
 ## Introduction
-###WHAT's the game about?
+
+### WHAT's the game about?
 This game tests the extent to which you are able to recognise parts of London. The more stations or boroughs you guess correctly, the more points. You can also share your score on Facebook or Twitter.
 
 ### WHY playing it?
