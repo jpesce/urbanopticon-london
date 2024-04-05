@@ -1,6 +1,7 @@
 # Urbanopticon London
 
 ![Urbanopticon London Screenshot](https://github.com/jpesce/urbanopticon-london/blob/master/urbanopticon-london.png?raw=true)
+(note about the design: give me a break, this was 2011/2012 😆 Bootstrap was cool)
 
 ## Introduction
 
